@@ -60,6 +60,7 @@ public class PullDownToRefreshTest {
 
         // Test page
         webServer.enqueue(new MockResponse().setBody(TestHelper.readTestAsset("counter.html")));
+        webServer.enqueue(new MockResponse().setBody(TestHelper.readTestAsset("counter.html")));
     }
 
     @After
